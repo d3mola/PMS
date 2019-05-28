@@ -6,7 +6,7 @@ const routes = require('./src/routes');
 
 const app = express();
 
-const connectionString = process.env.DB_URL;
+const connectionString = process.env.MONGODB_URI;
 
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
