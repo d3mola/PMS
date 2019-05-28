@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 
 app.use('*', (req, res) =>
     res.status(404).json({
-        message: `Welcome! Check the documentation for valid routes`
+        message: `Welcome! Check https://github.com/d3mola/PMS/blob/master/README.md for valid routes`
     })
 );
 
